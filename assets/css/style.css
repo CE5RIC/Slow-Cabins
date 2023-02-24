@@ -56,13 +56,14 @@ ul li a {
 
 h1 {
   margin-top: 180px;
-  font-family: "Recoleta", sans-serif;
-  font-style: normal;
-  font-weight: 100 !important;
+  font-family: "Recoleta";
+  font-weight: light;
   font-size: 36px;
   line-height: 109%;
+  letter-spacing: 1px;
   text-align: center;
   color: #EEEAE1;
+
 }
 
 /* Hero section / navigation */
@@ -120,7 +121,7 @@ h1 {
 
 .quote h2 {
   font-family: "Recoleta";
-  font-style: normal;
+  font-style: light;
   font-weight: 300;
   font-size: 42px;
   line-height: 51px;
@@ -146,24 +147,21 @@ h1 {
 
 .carousel {
   background: #F9F7F7;
+  min-height: 110px;
   
 }
 
 .carousel-image {
-  
-  margin-right: 100px;
-
-  width: auto;
-  height: 
-  auto;
+margin-right: 100px;
+padding-top: 30px;
 
 }
 
 
 .carousel-cell {
-  width: 100%;
-  height: 100%;
- 
+  width: 120%;
+  height: 120%;
+  
 }
 
 
@@ -222,18 +220,14 @@ h1 {
 }
 
 .right p {
-  font-family: "Plain", sans-serif;
+  font-family: "Brandon Grotesque";
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 26px;
   color: #EEEAE1;
   width: 287px;
   height: 91px;
-  font-family: "Plain";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 0.9375em;
   line-height: 26px;
   padding-top: 7px;
 }
@@ -300,7 +294,7 @@ h1 {
   justify-content: space-between;
   width: 100vw;
   max-width: 100%;
-  height: 700px;
+  height: 650px;
 }
 
 .vragen h3 {
@@ -319,14 +313,15 @@ h1 {
   padding-left: 200px;
   min-width: 672px;
   min-height: 400px;
+  padding-top: 100px;
 }
 
 .vragen-content {
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 300px;
+  margin-right: 100px;
   padding-bottom: 100px;
 }
 
@@ -337,8 +332,14 @@ h1 {
   width: 60%;
 }
 
+.campfire-img {
+  height: 80%;
+  width: 100%;
+}
+
+
 .vragen ul li {
-  font-family: "Plain";
+  font-family: "Brandon Grotesque";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -346,7 +347,7 @@ h1 {
   color: #EEEAE1;
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 672px;
   padding-top: 10px;
   padding-bottom: 10px;
   
@@ -361,40 +362,28 @@ span {
   padding-right: 15px;
 }
 
-.campfire-img {
-  height: 80%;
-  width: 100%;
-}
 
 
 #button-meer-vragen {
-color: white;
-border-radius: 2px;
-padding-top: 40px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #EEEAE1;
-
-
-
-font-family: 'Brandon Grotesque';
-font-style: normal;
-font-weight: 450;
-font-size: 15px;
-line-height: 37px;
-/* or 247% */
-
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #EEEAE1;
-
-
+  width: 199px;
+  height: 35px;
+  font-family: "Brandon Grotesque";
+  font-style: bold;
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 37px;
+  background-color: #182C2E;
+ margin-top: 40px;
+  text-transform: uppercase;
+  box-shadow: none;
+  border-color: #EEEAE1;
+  border: 1px solid #EEEAE1;
+  
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #EEEAE1;
 
 }
-
-
-
 
 
 /* Stay in touch section */
@@ -427,10 +416,10 @@ color: #EEEAE1;
 .touch-container p {
   width: 345px;
   height: 87px;
-  font-family: "Plain";
+  font-family: "Brandon Grotesque";
   font-style: normal;
   font-weight: 399;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 144%;
   padding-bottom: 60px;
   color: #EEEAE1;
@@ -456,7 +445,8 @@ color: #EEEAE1;
 
 .email-input::placeholder {
   color: #EEEAE1;
-  
+  font-family: "Brandon Grotesque";
+  font-size: 16px;
 }
 
 .aanmelden-button {
@@ -501,7 +491,12 @@ color: #EEEAE1;
 .footer-content div ul li {
   list-style: none;
   text-decoration: none;
+
 }
+
+
+
+
 
 .footer-content div h5 {
   font-family: "Brandon-Bold";
@@ -517,16 +512,19 @@ color: #EEEAE1;
  
 }
 
+
+
 .footer-content ul li {
-  font-family: "Plain";
+  font-family: "plain";
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 26px;
   color: #000000;
   white-space: nowrap;
-
 }
+
+
 
 .icons {
   display: flex;
@@ -543,5 +541,5 @@ color: #EEEAE1;
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  min-width: 1440px;
+  min-width: 1200px;
 }/*# sourceMappingURL=style.css.map */
